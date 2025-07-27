@@ -7,6 +7,7 @@ export default function Navbar() {
         <div className="text-xl font-bold text-indigo-600">CloudLectures</div>
         <div className="space-x-4">
           <Link to="/" className="text-gray-700 hover:text-indigo-600">Dashboard</Link>
+          <Link to="/courses" className="text-gray-700 hover:text-indigo-600">Courses</Link>
           <Link to="/live" className="text-gray-700 hover:text-indigo-600">Live</Link>
           <Link to="/tests" className="text-gray-700 hover:text-indigo-600">Tests</Link>
           <Link to="/improvements" className="text-gray-700 hover:text-indigo-600">Improvements</Link>

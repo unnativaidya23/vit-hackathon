@@ -6,6 +6,8 @@ import Tests from './Pages/Tests';
 import Improvements from './Pages/Improvements';
 import Progress from './Pages/Progress';
 import Profile from './Pages/Profile';
+import JoinClass from './Pages/JoinClass';
+import Courses from './Pages/Courses';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         <Route path="/improvements" element={<Improvements />} />
         <Route path="/progress" element={<Progress />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/join-class" element={<JoinClass />} />
+        <Route path="/courses" element={<Courses />} />
+
       </Routes>
     </div>
   );
